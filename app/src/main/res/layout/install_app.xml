@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:ignore="MissingDefaultResource">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"></View>
+
+    <TextView
+        android:id="@+id/apk_name"
+        android:layout_width="350px"
+        android:layout_height="65px"
+        android:layout_marginTop="5px"
+        android:gravity="center_horizontal"
+        android:textColor="@color/white"
+        android:textSize="30sp"></TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.3"></View>
+
+    <com.letianpai.robot.widget.button.SettingsButton
+        android:id="@+id/install"
+        android:layout_width="221px"
+        android:layout_height="65px"
+        android:background="@drawable/setting_rounded_background_selector"
+        android:text="@string/install"
+        android:textAllCaps="false"
+        android:textSize="32sp"></com.letianpai.robot.widget.button.SettingsButton>
+
+    <com.letianpai.robot.widget.button.SettingsButton
+        android:id="@+id/display"
+        android:layout_width="221px"
+        android:layout_height="65px"
+        android:background="@drawable/setting_installing_rounded_background_selector"
+        android:text="@string/installing"
+        android:textAllCaps="false"
+        android:visibility="gone"
+        android:textSize="32sp"></com.letianpai.robot.widget.button.SettingsButton>
+
+    <com.letianpai.robot.widget.button.SettingsButton
+        android:id="@+id/openApk"
+        android:layout_width="221px"
+        android:layout_height="65px"
+        android:background="@drawable/setting_rounded_background_selector"
+        android:text="@string/open"
+        android:textAllCaps="false"
+        android:textSize="32sp"
+        android:visibility="gone"></com.letianpai.robot.widget.button.SettingsButton>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></View>
+
+    <TextView
+        android:id="@+id/des"
+        android:layout_width="350px"
+        android:layout_height="65px"
+        android:layout_marginTop="5px"
+        android:gravity="center_horizontal"
+        android:text="@string/install_app_des"
+        android:textColor="@color/white"
+        android:textSize="20sp"></TextView>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"></View>
+
+    <com.letianpai.robot.widget.back.BackButton
+        android:id="@+id/back_install"
+        android:layout_width="match_parent"
+        android:layout_height="68px"></com.letianpai.robot.widget.back.BackButton>
+</LinearLayout>
+
+

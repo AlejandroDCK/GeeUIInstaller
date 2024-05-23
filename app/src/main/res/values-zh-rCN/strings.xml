@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">安装器</string>
+    <string name="upload_app_des">1. 打开URL：Letianpai.com/robot/upload\n2. 输入验证码后，上传文件\n1. Open URL: Letianpai.com/robot/upload\n2. After entering the code , upload the file</string>
+    <string name="install_app_des">安装成功后，前往机器人“控制”中打开。\nAfter successful installation, go to the robot"Control" and open it.</string>
+    <string name="download">下载/Download</string>
+    <string name="install">安装/Install</string>
+    <string name="install_list">安装</string>
+    <string name="open">打开/Open</string>
+    <string name="there_is_no_download_info">暂无下载任务</string>
+    <string name="installing">安装中/Installing</string>
+    <string name="waiting">等待</string>
+    <string name="downloaded">下载完成</string>
+</resources>
