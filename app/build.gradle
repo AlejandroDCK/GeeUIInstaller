@@ -1,15 +1,16 @@
 plugins {
     id 'com.android.application'
+    id 'org.jetbrains.kotlin.android' version("2.0.21")
 }
 
 android {
     namespace 'com.letianpai.robot.installer'
-    compileSdk 32
+    compileSdk 34
 
     defaultConfig {
         applicationId "com.letianpai.robot.installer"
         minSdk 26
-        targetSdk 32
+        targetSdk 34
         versionCode 24041005
         versionName "1.0."+versionCode
 
@@ -18,10 +19,10 @@ android {
 
     signingConfigs {
         config {
-            storeFile file('../keystore/letianpai.jks')
-            keyAlias 'letianpai'
-            keyPassword 'letianpai0801'
-            storePassword 'letianpai0801'
+            storeFile file('../keystore/installerkeystore.jks')
+            keyAlias 'installerkeystore'
+            keyPassword 'holahola'
+            storePassword 'holahola'
         }
     }
 
@@ -47,7 +48,7 @@ android {
 
 dependencies {
 
-    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+    implementation 'androidx.recyclerview:recyclerview:1.3.2'
     implementation project(':Components')
     implementation project(':CommChannel')
     implementation project(':GeeUIWidget')

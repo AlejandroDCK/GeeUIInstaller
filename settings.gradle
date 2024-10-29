@@ -17,6 +17,6 @@ include ':app'
 include ':CommChannel'
 include ':Components'
 include ':GeeUIWidget'
-project(':CommChannel').projectDir = new File('GeeUIComponents/CommChannel')
-project(':Components').projectDir = new File('GeeUIComponents/Components')
-project(':GeeUIWidget').projectDir = new File('GeeUIComponents/GeeUIWidget')
+project(':CommChannel').projectDir = new File('../GeeUIComponents/CommChannel')
+project(':Components').projectDir = new File('../GeeUIComponents/Components')
+project(':GeeUIWidget').projectDir = new File('../GeeUIComponents/GeeUIWidget')
