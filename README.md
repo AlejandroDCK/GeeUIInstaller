@@ -5,14 +5,13 @@
 ## Características
 
 - **Instalación del servicio**: A través de una clase que exitende de Service, permite instalar el servicio en el robot
-- **Instalación/Destinstalación de paquetes**: Permite mediante un receiver instalar o desinstalar paquetes para el servicio del robot
+- **Instalación/Desinstalación de paquetes**: Permite mediante un receiver instalar o desinstalar paquetes para el servicio del robot
 
 ## Instalación
 
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/AlejandroDCK/GeeUIInstaller
-
 
 ### Contribute
 
